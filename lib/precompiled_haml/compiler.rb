@@ -1,5 +1,5 @@
 module PrecompiledHaml
-  class Parser < Haml::Compiler
+  class Compiler < Haml::Compiler
     def compile(node)
       @precompiled = node
     end
