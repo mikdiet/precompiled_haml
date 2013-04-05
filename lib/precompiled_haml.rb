@@ -1,0 +1,2 @@
+module PrecompiledHaml
+end
