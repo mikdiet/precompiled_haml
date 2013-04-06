@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = PrecompiledHaml::VERSION
   s.authors     = ["Mik-Die"]
   s.email       = ["MikDiet@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = 'https://github.com/Mik-die/precompiled_haml'
   s.summary     = "Precompile HAML on production to speed up view rendering."
   s.description = "Precompile HAML on production to speed up view rendering"
 
