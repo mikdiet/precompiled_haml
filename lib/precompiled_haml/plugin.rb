@@ -13,5 +13,5 @@ module PrecompiledHaml
   end
 end
 
-ActionView::Template.register_template_handler(:_precompiled_haml, PrecompiledHaml::Plugin)
+ActionView::Template.register_template_handler(:precompiled_haml, PrecompiledHaml::Plugin)
 ActionController::Base.prepend_view_path(Rails.root.join('app/precompiled_views'))
