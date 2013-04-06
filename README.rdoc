@@ -1,3 +1,12 @@
 = PrecompiledHaml
 
+The idea of that gem was next: Haml compiles views into ruby code each request,
+and we can speed up this process if we'll do some precopilation on deployment
+(like asset pipeline, but for views).
+
+After raw impementation, I make a/b tests for rendering some haml views - and
+there was no difference (in fact precopiled views was slightly slower).
+
+So I'm satisfied by speed of haml and stop next development of this gem :)
+
 This project rocks and uses MIT-LICENSE.
